@@ -1,0 +1,12 @@
+<h1><%= @user.name %>　のプロフィール</h1>
+
+名前 : <%= @user.name %><br>
+年齢 : <%= @user.age %><br>
+アドレス : <%= @user.address %><br>
+趣味 : <%= @user.hobby %><br>
+言語 : <%= @user.language %><br>
+IDE : <%= @user.ide %><br>
+体重 : <%= @user.weight %><br>
+身長 : <%= @user.height %><br>
+パスワード : <%= @user.password %><br><br>
+<%= link_to "[Edit]", edit_user_path(@user.id) %><br><br>
